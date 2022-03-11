@@ -1,0 +1,188 @@
+ /* importando a font do Google*/
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=BhuTuka+Expanded+One&family=Orbitron:wght@600&family=Prompt:ital,wght@0,500;1,300;1,400&family=Roboto:wght@100;900&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: 'Architects Daughter', cursive;
+     font-family: 'BhuTuka Expanded One', cursive;
+     font-family: 'Orbitron', sans-serif;
+     font-family: 'Prompt', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     background-color: rgb(98, 84, 231);
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     color: black;
+     text-align: justify;
+ }
+ 
+ html {
+     font-size: 16px;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: black;
+ }
+ 
+ ul {
+     list-style: none;
+ }
+ /* Cabeçario/Menu*/
+ 
+ .menu-top {
+     width: 100%;
+     height: 80px;
+     padding: 0 20px;
+     display: flex;
+     color: orangered;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 1;
+     text-align: center;
+     font-weight: 900;
+ }
+ 
+ .menu-titulo {
+     font-size: 4vmin;
+     font-weight: 600;
+ }
+ 
+ .menu-nav ul {
+     display: flex;
+ }
+ 
+ .menu-nav li {
+     margin: 0 10px;
+ }
+ 
+ .menu-nav a {
+     font-size: 4vmin;
+     font-weight: 600;
+     transition: .8s;
+     color: orangered;
+ }
+ 
+ .menu-nav a:hover {
+     color: deepskyblue;
+ }
+ /*Fim Menu/Cabeçario*/
+ /*Começo parte1*/
+ 
+ .parte1 {
+     width: 100%;
+     height: 100vh;
+     padding: auto;
+     background-image: url(../img/Momento_saude_logo.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: left;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-weight: 600;
+     color: black;
+     text-align: center;
+ }
+ 
+ .parte1-titulo {
+     margin-bottom: 3rem;
+     font-size: 5vmin;
+     font-weight: 600;
+ }
+ 
+ .parte1-texto {
+     margin-bottom: 3rem;
+     font-size: 3vmin;
+     font-style: italic;
+     font-weight: 600;
+ }
+ 
+ .parte1-paragrafo {
+     margin-bottom: 3rem;
+     font-size: 3vmin;
+     font-weight: 700;
+ }
+ 
+ .parte1-link {
+     margin-bottom: 80px;
+     border: 1px solid rgb(22, 22, 22);
+     background-color: rgb(17, 16, 16);
+     padding: 12px 30px;
+     border-radius: 70px;
+     font-size: 3vmin;
+     font-weight: 900;
+     text-transform: uppercase;
+     transition: .5s;
+ }
+ 
+ .parte1-link:hover {
+     background-color: transparent;
+ }
+ /*Fim da Parte 1*/
+ /*começo parte2*/
+ 
+ .parte2 {
+     margin: 15px 25px;
+     padding: 15px 25px;
+     font-size: 3vmin;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     color: black;
+     text-align: justify;
+     font-weight: 600;
+ }
+ 
+ .parte2-titulo {
+     text-align: center;
+     margin-bottom: 3rem;
+     font-size: 3vmin;
+     font-weight: 600;
+ }
+ 
+ .parte2-paragrafo {
+     margin: 15px 25px;
+     padding: 15px 25px;
+     font-size: 3vmin;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-weight: 600;
+ }
+ /*fim parte2*/
+ /*rede sociais*/
+ 
+ .redes-sociais {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     margin: 0 50px;
+ }
+ /*fim rede sociais*/
+ 
+ .formulario-imc {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-weight: 600;
+     color: black;
+     text-align: center;
+ }
